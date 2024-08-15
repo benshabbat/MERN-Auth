@@ -5,7 +5,7 @@
   "main": "backend/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev":"nodemon backend/index.js"
+    "dev": "nodemon backend/index.js"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +19,7 @@
     "express": "^4.19.2",
     "jsonwebtoken": "^9.0.2",
     "mailtrap": "^3.4.0",
+    "mongodb": "^6.8.0",
     "mongoose": "^8.5.2"
   },
   "devDependencies": {
