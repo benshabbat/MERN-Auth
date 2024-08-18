@@ -1,4 +1,4 @@
-export const singup = async (req, res) => {
+export const signup = async (req, res) => {
   res.send("sign up");
 };
 export const login = async (req, res) => {
