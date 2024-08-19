@@ -6,10 +6,10 @@ export const signup = async (req, res) => {
     const userAlreadyExists = await User.findOne({email})
     if(userAlreadyExists)
     {
-        res.status(400).json({message: "User already exists"})
+        return res.status(400).json({success:false,message: "User already exists"})
     }
   } catch (error) {
-    
+    res.status(400).json({success:false,message: error.message});
   }
 };
 export const login = async (req, res) => {
