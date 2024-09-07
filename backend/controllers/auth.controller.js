@@ -53,3 +53,6 @@ export const login = async (req, res) => {
 export const logout = async (req, res) => {
   res.send("logout");
 };
+export const verifyEmail = async (req, res) => {
+  res.send("verifyEmail");
+};
